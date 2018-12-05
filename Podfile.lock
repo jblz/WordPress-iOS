@@ -166,6 +166,7 @@ PODS:
   - RNTAztecView (1.0.0):
     - React
     - WordPress-Aztec-iOS
+  - SimulatorStatusMagic (2.3.2)
   - Starscream (3.0.6)
   - SVProgressHUD (2.2.5)
   - UIDeviceIdentifier (0.5.0)
@@ -238,6 +239,7 @@ DEPENDENCIES:
   - React (from `https://raw.githubusercontent.com/wordpress-mobile/gutenberg-mobile/master/react-native-gutenberg-bridge/third-party-podspecs/React.podspec.json`)
   - RNSVG (from `https://github.com/react-native-community/react-native-svg.git`, tag `8.0.8`)
   - RNTAztecView (from `https://github.com/wordpress-mobile/react-native-aztec.git`)
+  - SimulatorStatusMagic
   - Starscream (= 3.0.6)
   - SVProgressHUD (= 2.2.5)
   - UIDeviceIdentifier (~> 0.4)
@@ -279,6 +281,7 @@ SPEC REPOS:
     - OCMock
     - OHHTTPStubs
     - Reachability
+    - SimulatorStatusMagic
     - Starscream
     - SVProgressHUD
     - UIDeviceIdentifier
@@ -357,6 +360,7 @@ SPEC CHECKSUMS:
   React: 01aa04500b2957c2767e1dff9fe12e09444a467c
   RNSVG: 2d4741933313f02e79b12af1b49b2856228b382a
   RNTAztecView: 57bb73dba9d88a27aabda2cefb1b1e0dcad90502
+  SimulatorStatusMagic: 0c0e711acef6e70dd8a0710962347635a9cdef24
   Starscream: ef3ece99d765eeccb67de105bfa143f929026cf5
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   UIDeviceIdentifier: a959a6d4f51036b4180dd31fb26483a820f1cc46
@@ -371,6 +375,6 @@ SPEC CHECKSUMS:
   yoga: f37b1edbd68be803f1dc4d57d40d8a5b277d8e2c
   ZendeskSDK: 44ee00338dd718495f0364369420ae11b389c878
 
-PODFILE CHECKSUM: 76af47239c34b18d4f89da60c38382c992c024c4
+PODFILE CHECKSUM: 3bf8db06e48ab63de3b1c47fccab90b81ceeb47a
 
 COCOAPODS: 1.5.3
