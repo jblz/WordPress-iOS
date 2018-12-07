@@ -106,11 +106,14 @@ func downloadTranslation(languageCode: String, folderName: String) {
         let fileManager = FileManager.default
         try? fileManager.createDirectory(atPath: languageFolder, withIntermediateDirectories: true, attributes: nil)
 
+        let marketingURL = "https://apps.wordpress.com/mobile/"
+
         do {
             try subtitle?.write(toFile: "\(languageFolder)/subtitle.txt", atomically: true, encoding: .utf8)
             try whatsNew?.write(toFile: "\(languageFolder)/release_notes.txt", atomically: true, encoding: .utf8)
             try keywords?.write(toFile: "\(languageFolder)/keywords.txt", atomically: true, encoding: .utf8)
             try storeDescription?.write(toFile: "\(languageFolder)/description.txt", atomically: true, encoding: .utf8)
+            try marketingURL.write(toFile: "\(languageFolder)/marketing_url.txt", atomically: true, encoding: .utf8)
         } catch {
             print("  Error writing: \(error)")
         }
